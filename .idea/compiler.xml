@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="s-pay-mall-app" />
+        <module name="s-pay-mall-app (2)" />
+        <module name="s-pay-mall-service" />
+        <module name="s-pay-mall-common" />
+        <module name="s-pay-mall-web" />
+        <module name="s-pay-mall-domain" />
+        <module name="s-pay-mall-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="s-pay-mall-app (1)" target="1.8" />
+      <module name="s-pay-mall-natapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="s-pay-mall-alipay" options="-parameters" />
+      <module name="s-pay-mall-app" options="-parameters" />
+      <module name="s-pay-mall-app (1)" options="-parameters" />
+      <module name="s-pay-mall-app (2)" options="-parameters" />
+      <module name="s-pay-mall-common" options="-parameters" />
+      <module name="s-pay-mall-dao" options="-parameters" />
+      <module name="s-pay-mall-domain" options="-parameters" />
+      <module name="s-pay-mall-mvc" options="-parameters" />
+      <module name="s-pay-mall-natapp" options="-parameters" />
+      <module name="s-pay-mall-service" options="-parameters" />
+      <module name="s-pay-mall-web" options="-parameters" />
+      <module name="s-pay-mall-weixin" options="-parameters" />
+    </option>
+  </component>
+</project>

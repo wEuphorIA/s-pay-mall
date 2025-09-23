@@ -1,0 +1,31 @@
+25-09-20.20:04:26.817 [main            ] INFO  Application            - Starting Application using Java 17.0.14 on LAPTOP-OHB7AR4G with PID 27660 (C:\Users\wyk\Desktop\code\xfg\s-pay-mall-weixin\s-pay-mall-app\target\classes started by Euphoria in C:\Users\wyk\Desktop\code\xfg\s-pay-mall-weixin\s-pay-mall-app)
+25-09-20.20:04:26.821 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-09-20.20:04:28.455 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-09-20.20:04:28.469 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-09-20.20:04:28.470 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-09-20.20:04:28.470 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-09-20.20:04:28.601 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-09-20.20:04:28.601 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1725 ms
+25-09-20.20:04:29.324 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-09-20.20:04:29.349 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-09-20.20:04:29.372 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-09-20.20:04:29.388 [main            ] INFO  Application            - Started Application in 3.252 seconds (JVM running for 4.157)
+25-09-20.20:04:29.944 [RMI TCP Connection(3)-10.254.1.89] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-09-20.20:04:29.944 [RMI TCP Connection(3)-10.254.1.89] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-09-20.20:04:29.945 [RMI TCP Connection(3)-10.254.1.89] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-09-20.20:06:25.418 [http-nio-8080-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [ffc3d240a3613a857b95235071667112cd05f9b8, 1758369985, 927149974, 8522362070960683497]
+25-09-20.20:06:25.427 [http-nio-8080-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 check：true
+25-09-20.20:07:13.632 [http-nio-8080-exec-2] INFO  WeixinPortalController - 接收微信公众号信息请求oRWHe1x_Ep7jNTO-hU63qA0UbefE开始 <xml><ToUserName><![CDATA[gh_39574b099e79]]></ToUserName>
+<FromUserName><![CDATA[oRWHe1x_Ep7jNTO-hU63qA0UbefE]]></FromUserName>
+<CreateTime>1758370033</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+25-09-20.20:07:37.765 [http-nio-8080-exec-4] INFO  WeixinPortalController - 接收微信公众号信息请求oRWHe1x_Ep7jNTO-hU63qA0UbefE开始 <xml><ToUserName><![CDATA[gh_39574b099e79]]></ToUserName>
+<FromUserName><![CDATA[oRWHe1x_Ep7jNTO-hU63qA0UbefE]]></FromUserName>
+<CreateTime>1758370057</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[我是猫猫]]></Content>
+<MsgId>25173806206980226</MsgId>
+</xml>
