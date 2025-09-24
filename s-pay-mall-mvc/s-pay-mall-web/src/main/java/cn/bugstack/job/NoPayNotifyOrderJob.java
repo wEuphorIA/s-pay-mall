@@ -48,6 +48,7 @@ public class NoPayNotifyOrderJob {
                     // if ("10000".equals(code)) {
                     //     orderService.changeOrderPaySuccess(orderId);
                     // }
+                    // 判断状态在更新订单
                     if( tradeStatus!=null && tradeStatus.equals("TRADE_SUCCESS")){
                         orderService.changeOrderPaySuccess(orderId);
                     }
