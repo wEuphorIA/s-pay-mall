@@ -1,5 +1,0 @@
-spring:
-  config:
-    name: xfg-dev-tech
-  profiles:
-    active: dev
