@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="s-pay-mall-app" />
         <module name="s-pay-mall-app (2)" />
+        <module name="s-pay-mall-app (1)" />
         <module name="s-pay-mall-service" />
         <module name="s-pay-mall-common" />
         <module name="s-pay-mall-web" />
@@ -16,10 +17,7 @@
         <module name="s-pay-mall-dao" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
-      <module name="s-pay-mall-app (1)" target="1.8" />
-      <module name="s-pay-mall-natapp" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
