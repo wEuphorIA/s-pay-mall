@@ -62,13 +62,13 @@
 <body>
 <div class="container">
     <div class="product-info">
-        <h2>美女程序员 - 同款机械键盘</h2>
+        <h2>芙宁娜手办</h2>
 
-        <img width="350" src="images/sku-keyboard-001.png"/>
+        <img width="350" src="./images/sku-keyboard-001.png"/>
         <p>价格：¥1.68</p>
     </div>
     <button id="orderButton" class="order-button">立即下单「沙箱支付」</button>
-    <span class="account-info">测试账号：kvhmoj3832@sandbox.com 密码：111111 支付：111111</span>
+    <span class="account-info">测试账号：yhaust9080@sandbox.com 密码：111111 支付：111111</span>
 </div>
 
 <script>
@@ -91,7 +91,7 @@ document.getElementById('orderButton').addEventListener('click', function() {
     }
 
     var productId = "100010090091";
-    var url = 'http://127.0.0.1:8091/api/v1/alipay/create_pay_order';
+    var url = 'http://127.0.0.1:8080/api/v1/alipay/create_pay_order';
 
     var requestBody = {
         userId: userId,
