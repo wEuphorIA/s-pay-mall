@@ -10,3 +10,4 @@ application-*.properties
 config/*.properties
 *.secret
 *.yml
+data/
